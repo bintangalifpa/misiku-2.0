@@ -1,0 +1,9 @@
+{
+  "appId": "id.bintang.misiku",
+  "appName": "Misiku",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "LocalNotifications": { "smallIcon": "ic_stat_misi", "iconColor": "#FF7A00" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "misiku",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Misiku: habit tracker, to-do, jadwal kuliah, berat badan, dan alarm sholat",
+  "scripts": {
+    "build": "node build.mjs",
+    "sync": "node build.mjs && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/geolocation": "^8.2.3",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/share": "^8.0.3",
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "adhan": "^4.4.6"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "esbuild": "^0.28.2"
+  }
+}
